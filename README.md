@@ -1,2 +1,34 @@
-# LearnElectron
-Electron 是由 GitHub 开发的开源框架，允许开发者使用 JavaScript、HTML 和 CSS 构建跨平台的桌面应用程序。通过将 Chromium 和 Node.js 嵌入到其二进制文件中，Electron 使得开发者能够维护一套 JavaScript 代码库，并创建可在 Windows、macOS 和 Linux 上运行的应用程序，无需原生开发经验。
+# electron-app
+
+An Electron application with Vue
+
+## Recommended IDE Setup
+
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Project Setup
+
+### Install
+
+```bash
+$ npm install
+```
+
+### Development
+
+```bash
+$ npm run dev
+```
+
+### Build
+
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```
