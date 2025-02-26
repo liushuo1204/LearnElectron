@@ -9,6 +9,10 @@ function createWindow() {
     width: 1200,
     height: 800,
     show: false,
+    // 隐藏标题栏
+    titleBarStyle: 'hidden',
+    // 打开操作按钮
+    titleBarOverlay: true,
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
